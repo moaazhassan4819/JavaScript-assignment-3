@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 100px 0px 0px 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("./image/luca-bravo-XJXWbfSo2f0-unsplash.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 100px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    line-height: 70px;
+    border: 2px solid transparent;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    transition: all 1s ease-in-out;
+
+}
+a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
